@@ -1,9 +1,75 @@
 * {
-	font-family:  "Hubballi", cursive;
+	font-family:  'Poppins', sans-serif;
+	
 }
+ html {
+ 	scroll-behavior: smooth;
+ }
 body {
 	background-color: #CB4335;
 }
-#project {
+#gmap_canvas {
+ 	height: 60vh;
+ 	width: 100%;
+ }
+#project, #about, #tools, #links, #contact, #midcaption {
 	background-color: rgba(0,0,0,.30);
+	color: white;
+}
+#landing {
+	background-image: url(./images/back.png);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+}
+#projimg {
+	height: 250px;
+	width:270px;
+	padding: 1rem;
+
+}
+#projback {
+	background-image: url(./images/cardback.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+}
+#projback2 {
+	background-image: url(./images/cardback2.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+}
+#projback3 {
+	background-image: url(./images/cardback3.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+}
+/*#accordionExample {
+	width: 50%;*/
+
+.card {
+	transition:  0.4s;
+
+}
+#translucent:hover {
+	background-color: pink;
+	color: black;
+	
+}
+#tool {
+	background-color: #CB4335;
+	border: none;
+}
+#toolbtn:hover {
+	background-color: yellow;
+}
+#icons {
+	height: 80px;
+	width: 80px;
+}
+#translucent {
+	background-color: rgba(0,0,0,.30);
+	color: white;
 }
