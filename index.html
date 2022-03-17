@@ -48,7 +48,7 @@
   <div class="col-12 col-md-6 col-lg-5  order-2 order-md-2 my-3 rounded p-3" id="about">
     <h2 class="bg-dark">Charles Bon Chua</h2>
 	  <h4 class="bg-secondary">Full Stack Web Developer</h4>
-	<p class="bg-secondary">
+	<p class="bg-secondary" id="aboutinfo">
 		Charles Bon Chua (born Filipino on May 12) served as an On-Site Supervisor in JCW Inc. He was also known as an academic tutor in mathematics;  assistant head chef and trainer in the food industry. He has also studied full-stack web development at Zuitt Learning Institute Inc.</p>
   </div>
   </div>
@@ -114,12 +114,7 @@
 
 <!-- Projects lists section -->
 <div class="container" id="midcaption">
-  <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
+  <a href="#" class="btn btn-success">Check more on Gallery</a>
 </div>
 
 <div class="row mt-5 text-center" >
@@ -167,7 +162,10 @@
 
 </div> 
 
-
+<div class="container" id="midcaption">
+  <a href="#" class="btn btn-success m-2">More Projects</a>
+  <a href="#" class="btn btn-success m-2">Client Relations and Request</a>
+</div>
 
 
 <!-- END OF PROJECT SECTION -->
@@ -193,11 +191,11 @@
           </div>
 
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body bg-secondary">
+            <div class="card-body" id="toolbody">
   		        <div class="d-flex flex-row justify-content-center">
-                <img src="./images/logo-html5.png" class="img-fluid" id="icons">
-    		        <img src="./images/logo-css3.png" class="img-fluid" id="icons" >
-                <img src="./images/logo-javascript.png" class="img-fluid" id="icons">
+                <img title="HTML5" src="./images/logo-html5.png" class="img-fluid" id="icons">
+    		        <img title="CSS3" src="./images/logo-css3.png" class="img-fluid" id="icons" >
+                <img title="JAVASCRIPT" src="./images/logo-javascript.png" class="img-fluid" id="icons">
   		        </div>
             </div>
           </div>
@@ -224,12 +222,12 @@
     </div>
 
     <div id="collapseTwo" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body bg-secondary">
+      <div class="card-body " id="toolbody">
           <div class="d-flex flex-row flex-wrap justify-content-center">
-            <img src="./images/logo-mongodb.png" class="img-fluid" id="icons">
-            <img src="./images/logo-nodejs.png" class="img-fluid" id="icons" >
-            <img src="./images/logo-expressjs.png" class="img-fluid" id="icons" >
-            <img src="./images/logo-react.png" class="img-fluid" id="icons" >
+            <img title="MongoDB" src="./images/logo-mongodb.png" class="img-fluid" id="icons">
+            <img title="NodeJS" src="./images/logo-nodejs.png" class="img-fluid" id="icons" >
+            <img title="Express" src="./images/logo-expressjs.png" class="img-fluid" id="icons" >
+            <img title="React" src="./images/logo-react.png" class="img-fluid" id="icons" >
           </div>
         </div>
     </div>
@@ -254,13 +252,13 @@
     </div>
 
     <div id="collapseThree" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body bg-secondary">
+      <div class="card-body" id="toolbody">
           <div class="d-flex flex-row flex-wrap justify-content-center">
-            <img src="./images/logo-heroku.png" class="img-fluid" id="icons" >
-            <img src="./images/logo-git.png" class="img-fluid" id="icons" >
-            <img src="./images/logo-sublime-text-3.png" class="img-fluid" id="icons" >
-            <img src="./images/logo-postman.png" class="img-fluid" id="icons" >
-            <img src="./images/logo-gitlab-ci-cd.png" class="img-fluid" id="icons" >
+            <img title="Heroku" src="./images/logo-heroku.png" class="img-fluid" id="icons" >
+            <img title="GitBash" src="./images/logo-git.png" class="img-fluid" id="icons" >
+            <img title="Sublime" src="./images/logo-sublime-text-3.png" class="img-fluid" id="icons" >
+            <img title="Postman" src="./images/logo-postman.png" class="img-fluid" id="icons" >
+            <img title="GitLab" src="./images/logo-gitlab-ci-cd.png" class="img-fluid" id="icons" >
           </div>
         </div>
     </div>
@@ -277,12 +275,12 @@
 <!-- Contact Section -->
 <h2 class="text-center my-4 py-3" id="contact">Social Links and Contacts</h2>
 <div class="row my-5" >
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6" id="contactSec">
       <h3 class="text-center">Visit Us</h3>
       <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=notre%20dame%20cubao&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
       <!-- <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Gangdong-gu,%20Seoul,%20South%20Korea&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
     </div>
-    <div class="col-12 col-md-6">
+    <div class="col-12 col-md-6" id="contactSec">
       <h3 class="text-center">Contact Us!</h3>
       <form>
         <div class="form-group text-left">
@@ -304,32 +302,42 @@
 
 </div> <!-- end of full container -->
 
-<div class="container-fluid " id="links"> <!-- links -->
-  <div class="row p-3 text-center">
+<div class="container-fluid p-1" id="links">
+  <footer> <!-- links -->
+  <div class="row p-3 text-center bg-dark m-3">
 
       <div class="col-12 col-md-6 col-lg-3">
-        <h3>Sample</h3>
-        <h3>Sample</h3>
+        <h6>About</h6>
+        <a href="#" class="text-white mx-2">Charles Bon Chua</a>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <h3>About</h3>
-        <h3>Sample</h3>
+      <div class="col-12 col-md-6 col-lg-3 justify-content-center">
+        <h6>Projects</h6>
+        <a href="#" class="text-white mx-2">Web Pages</a>
+        <a href="#" class="text-white mx-2">Web Apps</a>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <h3>Social Links</h3>
-        <h3>Sample</h3>
+      <div class="col-12 col-md-6 col-lg-3 justify-content-center">
+        <h6>Social Links</h6>
+        <a href="https://facebook.com" target="_blank" class="text-white mx-2">
+          <i class="fa-brands fa-facebook fa-icons"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank"class="text-white mx-2">
+          <i class="fa-brands fa-instagram-square fa-icons"></i>
+        </a>
+        <a href="https://facebook.com" target="_blank" class="text-white mx-2">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank"class="text-white mx-2">
+          <i class="fa-brands fa-twitter-square"></i>
+        </a>
       </div>
-      <div class="col-12 col-md-6 col-lg-3">
-        <h3>Contact</h3>
-        <h3>Sample</h3>
+      <div class="col-12 col-md-6 col-lg-3 justify-content-center">
+        <h6>Contact</h6>
+        <p>(+63)9483944738 (TNT)</p>
+        <p>charlesschua00@gmail.com</p>
       </div>
-
-
-
-
-
 
   </div>
+</footer>
 </div> <!-- end of links -->
 
 
