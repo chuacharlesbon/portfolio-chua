@@ -63,6 +63,7 @@ body {
 	transition: 0.3s;
 }
 #aboutinfo:hover {
+	background-color: #D7DBDD;
 	padding: 2rem;
 	transition: 0.3s;
 }
@@ -75,7 +76,7 @@ body {
 	background-color: #D7DBDD;
 	color: black;
 }
-.btnnav {
+.btnnav, .navbar-toggler {
 	background-color: #EF6351;
 }
 #toolbtn:hover, .btnnav:hover {
@@ -94,12 +95,18 @@ body {
 	padding: 3rem;
 	transition: 0.1s;
 }
+#carousel {
+	padding:  3rem;
+	transition: 0.1s;
+}
 #carousel:hover {
-	background-color: #D7DBDD;
-	padding: 3rem;
+	padding:  .5rem;
 	transition: 0.1s;
 }
 .btnproj, .headname,.footerbg, .navbar {
 	background-color: #F38375;
 	color: black;
+}
+.carousel-caption {
+	padding:  .5rem;
 }
