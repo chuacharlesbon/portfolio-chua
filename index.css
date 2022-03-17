@@ -86,3 +86,8 @@ body {
 	padding: 3rem;
 	transition: 0.1s;
 }
+#carousel:hover {
+	background-color: lightblue;
+	padding: 3rem;
+	transition: 0.1s;
+}
