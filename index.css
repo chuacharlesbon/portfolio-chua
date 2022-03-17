@@ -6,15 +6,19 @@
  	scroll-behavior: smooth;
  }
 body {
-	background-color: #CB4335;
+	background-color: #FBC3BC;
 }
 #gmap_canvas {
  	height: 60vh;
  	width: 100%;
  }
-#project, #about, #tools, #links, #contact {
-	background-color: rgba(0,0,0,.30);
-	color: white;
+#project,#tools, #contact {
+	border-bottom: .25rem solid #F38375;
+	
+}
+#about {
+	background-color: #FBC3BC;
+	color: black;
 }
 #landing {
 	background-image: url(./images/back.png);
@@ -63,15 +67,19 @@ body {
 	transition: 0.3s;
 }
 #tool {
-	background-color: #CB4335;
+	background-color: #F38375;
 	border: none;
 }
 
 #toolbody {
 	background-color: #D7DBDD;
+	color: black;
 }
-#toolbtn:hover {
-	background-color: yellow;
+.btnnav {
+	background-color: #EF6351;
+}
+#toolbtn:hover, .btnnav:hover {
+	background-color: #D7DBDD;
 }
 #icons {
 	height: 80px;
@@ -82,12 +90,16 @@ body {
 	color: white;
 }
 #contactSec:hover {
-	background-color: lightblue;
+	background-color: #D7DBDD;
 	padding: 3rem;
 	transition: 0.1s;
 }
 #carousel:hover {
-	background-color: lightblue;
+	background-color: #D7DBDD;
 	padding: 3rem;
 	transition: 0.1s;
+}
+.btnproj, .headname,.footerbg, .navbar {
+	background-color: #F38375;
+	color: black;
 }
