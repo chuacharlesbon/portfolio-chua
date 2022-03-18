@@ -1,12 +1,16 @@
 * {
-	font-family:  'Poppins', sans-serif;
-	
+	font-family:  'Hubballi', cursive;
+	font-size: 22px;
 }
  html {
  	scroll-behavior: smooth;
  }
 body {
-	background-color: #FBC3BC;
+	background-image: url(./images/pexels-gdtography-950241.jpg);
+	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	/*background-color: #FBC3BC;*/
 }
 #gmap_canvas {
  	height: 60vh;
@@ -109,4 +113,18 @@ body {
 }
 .carousel-caption {
 	padding:  .5rem;
+}
+/*.carouselbody {
+	background-image: url(./images/projback.jpg);
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+}*/
+/*#about {
+	border-radius:  1rem 5rem 1rem  5rem;
+}*/
+@media only screen and (min-width: 600px) {
+  #projback, #projback2, #projback3 {
+    min-height: 60vh;
+  }
 }
