@@ -1,130 +1,290 @@
 * {
 	font-family:  'Hubballi', cursive;
-	font-size: 22px;
+	font-size: 20px;
+	box-sizing: border-box;
 }
  html {
  	scroll-behavior: smooth;
  }
 body {
-	background-image: url(./images/pexels-gdtography-950241.jpg);
+	/*background-color: #212529;*/
+	background-image: url(./pexels-sergej-eckhardt-2071319.jpg);
 	background-size: cover;
- 	background-repeat: no-repeat;
- 	background-position: center;
- 	/*background-color: #FBC3BC;*/
+ 	background-attachment: fixed;
 }
-#gmap_canvas {
- 	height: 60vh;
- 	width: 100%;
- }
-#project,#tools, #contact {
-	border-bottom: .25rem solid #F38375;
-	
+.clogo {
+	height:  2rem;
+	width:  2rem;
 }
-#about {
-	background-color: #FBC3BC;
+.nav-item {
+	background-color: #424949 ;
+	transition: 0.5s;
+}
+.nav-item:hover, #Aboutbtn:hover, .gallerybtn, .btnproj{
+	background-color: #707B7C ;
+}
+.translucent {
+	transition: 0.5s;
+	padding: 0rem !important;
+}
+.translucent:hover {
+	background-color: #D7DBDD ;
+	padding: 0.5rem !important;
 	color: black;
 }
-#landing {
-	background-image: url(./images/back.png);
- 	background-size: cover;
- 	background-repeat: no-repeat;
- 	background-position: center;
+.nav-link {
+	color: white;
 }
-#projimg {
-	height: 250px;
-	width:270px;
-	padding: 1rem;
+.navbar-nav ~ li:hover {
+	color: black !important;
+}
+#big-box .main-box {
+	display:  inline-block;
+}
+.secondCol {
+	width: 93%;
+ 	margin-left: 5%;
+ 	padding-left: 0;
+}
+.aboutheader {
+	background-color: #616A6B;
+}
+.navbar {
+	background-color: black;
+}
 
+#firstCol {
+	width:  6%;
+	height: 85vh;
+	position: fixed;
+	left:  0;
+	background-color:  black;
+	border-radius: 0 0 1rem 0;
+}
+.topcover {
+	background-image: url(./wp6688406-typing-wallpapers.jpg);
+	background-size: cover;
+ 	background-attachment: scroll;
+}
+#title,.carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon,.toolheader,.maincard {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#collapseAbout {
+ 	color:  #ffffff;
+}
+#sidebar-icon {
+	height:  2.4rem;
+	width:  1.8rem;
+}
+#sidebar-content {
+	height: 50%;
+}
+.socialbrand, .toolbtn {
+	transition: 0.5s;
+}
+.socialbrand:hover {
+	background-color: #707B7C;
+}
+#secondColMain {
+	width: 92% !important;
+}
+.infobody, .toolbtn {
+	background-color: rgba(0, 0, 0, .7);
+	transition: 0.5s;
+	/*min-height: 60vh;*/
+}
+.infobody:hover, .icons:hover {
+ 	background-color: rgba(0, 0, 0, 1);
+ 	transition: 0.5s;
+}
+#carouselExampleIndicators {
+	background-color: rgba(0, 0, 0, .5);
+	width: 55% !important;
+}
+.carousel-image {
+	width: 30rem;
+	min-height: 23rem;
+}
+/*.mytooltip .mytooltiptext {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+   Fade in tooltip - takes 1 second to go from 0% to 100% opac: 
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.mytooltip:hover .mytooltiptext {
+  visibility: visible;
+  opacity: 1;
+}*/
+.projimg {
+	min-height: 10rem;
+	width: 10rem;
+	padding: 0rem;
 }
 #projback {
 	background-image: url(./images/cardback.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
  	background-position: center;
+ 	/*height: 25rem;*/
+ 	transition: 0.5s;
 }
 #projback2 {
 	background-image: url(./images/cardback2.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
  	background-position: center;
+ 	/*height: 25rem;*/
+ 	transition: 0.5s;
 }
 #projback3 {
 	background-image: url(./images/cardback3.jpg);
  	background-size: cover;
  	background-repeat: no-repeat;
  	background-position: center;
+ 	/*height: 25rem;*/
+ 	transition: 0.5s;
 }
-/*#accordionExample {
-	width: 50%;*/
-
-.card {
-	transition:  0.4s;
-}
-#translucent:hover {
-	background-color: #D7DBDD;
-	color: black;
-	padding: 2rem;
-	transition: 0.3s;
-}
-#aboutinfo:hover {
-	background-color: #D7DBDD;
-	padding: 2rem;
-	transition: 0.3s;
-}
-#tool {
-	background-color: #F38375;
-	border: none;
-}
-
-#toolbody {
-	background-color: #D7DBDD;
-	color: black;
-}
-.btnnav, .navbar-toggler {
-	background-color: #EF6351;
-}
-#toolbtn:hover, .btnnav:hover {
-	background-color: #D7DBDD;
-}
-#icons {
-	height: 80px;
-	width: 80px;
-}
-#translucent {
-	background-color: rgba(0,0,0,.30);
+#projback4, #projback5, #projback6,.cardback, #aboutinfo {
+	transition: 0.5s;
+	background-color: rgba(0, 0, 0, 0.3);
 	color: white;
 }
-#contactSec:hover {
-	background-color: #D7DBDD;
-	padding: 3rem;
-	transition: 0.1s;
+.icons {
+	height: 80px;
+	width: 80px;
+	transition: 0.5s;
 }
-#carousel {
-	padding:  3rem;
-	transition: 0.1s;
+.toolbtn {
+	color:  white;
 }
-#carousel:hover {
-	padding:  .5rem;
-	transition: 0.1s;
+.toolbtn:hover {
+	background-color: #707B7C;
+	font-size: 1.1rem;
+	color:  black;
 }
-.btnproj, .headname,.footerbg, .navbar {
-	background-color: #F38375;
+#gmap_canvas {
+ 	height: 20rem;
+ 	width: 100%;
+ }
+.contactSec {
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 1rem;
+	color: white;
+}
+.contactSec:hover {
+	background-color: #707B7C;
+	padding: 0.2rem;
+	transition: 0.1s;
 	color: black;
 }
-.carousel-caption {
-	padding:  .5rem;
+.btnsubmit {
+	color: black;
 }
-/*.carouselbody {
-	background-image: url(./images/projback.jpg);
- 	background-size: cover;
- 	background-repeat: no-repeat;
- 	background-position: center;
-}*/
-/*#about {
-	border-radius:  1rem 5rem 1rem  5rem;
-}*/
-@media only screen and (min-width: 600px) {
-  #projback, #projback2, #projback3 {
-    min-height: 60vh;
-  }
+.btnsubmit:hover {
+	color: white;
 }
+.footerbody {
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+}
+.btnAboutFull {
+	background-color: rgba(0, 0, 0, 0);
+	border:  none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 560px) /*Mobile (+/-) 6inch Setting section*/
+{
+#carouselExampleIndicators {
+	width:  100vw !important;
+}
+}
+@media screen and (min-width: 561px) /*Mobile (+/-) 6inch Setting section*/
+{
+#carouselExampleIndicators {
+	width:  80vw !important;
+}
+}
+@media screen and (min-width: 769px) /*Mobile (+/-) 6inch Setting section*/
+{
+#carouselExampleIndicators {
+	width:  60vw !important;
+}
+}
+
+
+@media screen and (max-width: 768px) /*Mobile (+/-) 6inch Setting section*/
+{
+.secondCol {
+    display: block !important;
+    width: 100vw !important;
+    margin: auto !important;
+	}
+/*#carouselExampleIndicators {
+	width:  80vw !important;
+}*/
+#projback, #projback2, #projback3, #projback4, #projback5, #projback6{
+
+	min-height: 22rem !important;
+}
+.carousel-image {
+	min-height:11rem !important;
+}
+.section-header {
+	text-align: center !important;
+}
+#firstCol {
+	display:  none;
+}
+}
+/*@media screen and (max-width: 1024px) Mobile (+/-) 6inch Setting section
+{
+#firstCol {
+	display:  none;
+}
+}
+*/
+
+
+@media screen and (min-width: 769px) /*Mobile (+/-) 6inch Setting section*/
+{
+
+.carousel-image {
+	min-height: 11rem !important;
+}
+#projback, #projback2, #projback3, #projback4, #projback5, #projback6{
+	min-height: 18rem !important;
+}
+}
+
+@media screen and (min-width: 1024px) /*Mobile (+/-) 6inch Setting section*/
+{
+	.carousel-image {
+	min-height: 14rem !important;
+}
+
+}
+
+
+@media screen and (min-width: 1024px) /*Mobile (+/-) 6inch Setting section*/
+{
+#sidebar-icon {
+	height:  3.5rem !important;
+	width:  2.8rem  !important;
+}
+}
+
+
+
+
+
+
+/* End of Media Screen Settings */

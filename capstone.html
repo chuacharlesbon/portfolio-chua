@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Developer's Portfolio"><!--search engine words-->
+  	<meta name="keywords" content="capstone, developer, portfolio">
+  	<meta name="author" content="Charles Bon L. Chua">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<title>Developer's Profile (Capstone)</title>
+	<link rel="icon" href="./images/c-logo.jpg" type="image/jpg">
+	<link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/37695b8f36.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-sm sticky-top">
+  <a class="navbar-brand" href="#"><img src="./images/c-logo.jpg" class="img-fluid rounded-circle clogo" id="clogo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu">
+    <span class="navbar-toggler-ico"><i class="fa-solid fa-bars text-white"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarmenu">
+    <ul class="navbar-nav mr-auto"> 
+      <li class="nav-item">
+        <a class="btn btnnav nav-link mx-2 p-1" href="#topcover">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item ">
+        <a class="btn btnnav nav-link mx-2 p-1" href="#project">Projects</a>
+      </li>
+     <li class="nav-item">
+        <a class="btn btnnav nav-link mx-2 p-1" href="#tool">Tools</a>
+      </li>
+      <li class="nav-item">
+        <a class="btn btnnav nav-link mx-2 p-1" href="#contactSec">Contact</a>
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+
+
+<div class="text-center" id="big-box"> <!-- Main Container -->
+
+<div class=" main-box d-none d-lg-inline-block py-3 px-1 text-center position-fixed" id="firstCol"> <!-- 1st col Container -->
+	<div class="sociallinks d-flex flex-column">
+		<a title="Go to Facebook Page" href="https://facebook.com" target="_blank" class="socialbrand text-white my-2 p-2">
+          <i class="fa-brands fa-facebook fa-icons"></i>
+        </a>
+        <a title="Go to Instagram Page" href="https://instagram.com" target="_blank" class="socialbrand text-white my-2 p-2">
+          <i class="fa-brands fa-instagram-square fa-icons"></i>
+        </a>
+        <a title="Go to LinkedIn Page" href="https://linkedin.com" target="_blank" class="socialbrand text-white my-2 p-2">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a title="Go to Twitter Page" href="https://twitter.com" target="_blank" class="socialbrand text-white my-2 p-2">
+          <i class="fa-brands fa-twitter-square"></i>
+        </a>
+	</div>
+	<div class="d-flex flex-row align-items-end justify-content-center" id="sidebar-content">
+		<img src="./images/chibi-girl.gif" alt="gif icon" id="sidebar-icon" class="img-fluid my-2" title="Hi there!">
+	</div>
+
+</div><!--End 1st col Container -->
+
+
+<div class="main-box pb-5 secondCol" id="secondCol"> <!-- 2nd col Container / pl-1-->
+
+<div class="topcover" id="topcover">
+<div class="row d-flex flex-row align-items-end"> <!-- Image and Info -->
+	<div class="col-12 col-md-4 my-3">
+    <img id="profile" src="./images/199210599_4425407134144695_9189103713052183258_n (1).jpg" class="profile rounded-circle my-1 img-fluid">
+		<div class="accordion mx-auto" id="accordionExample">
+        <div class="card" id="title" >
+          <div class="card-header" id="headingAbout">
+            <h1 class="mb-0">
+            <button  id="Aboutbtn" class="btn btn-link btn-block text-center text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseAbout" aria-expanded="true" aria-controls="collapseAbout">
+            <h4 class="text-white">Charles Bon Chua</h4>
+            <p class="text-white">Full Stack Web Developer<i class="ml-2 fa-solid fa-angle-down"></i></p>
+            </button>
+            </h1>
+          </div>
+          </div>
+        </div>
+      </div>
+</div> <!-- End of Image and info -->
+
+ <div id="collapseAbout" class="collapse show bg-dark" aria-labelledby="headingAbout" data-parent="#accordionExample">
+            <div class="card-body" id="aboutbody">
+            <div id="aboutinfo">
+              <p>	
+                  Charles Bon Chua (born Filipino on May 12) studied Full-Stack Web Development at Zuitt Learning Institute Inc. He has also served as an On-Site Supervisor in JCW Inc. He was also known as an academic tutor in mathematics;  assistant head chef and trainer in the food industry.
+              </p>
+              <p>
+              	<!-- More Info -->
+
+              </p>
+          	</div>
+            </div>
+ </div><!-- End of Collapse Section -->
+</div><!-- End of top section -->
+
+
+<button class="btn-block btnAboutFull" type="button" data-toggle="collapse" data-target="#collapseAboutFull" aria-expanded="false" aria-controls="collapseAboutFull">
+    <h3 class="text-left text-white my-3 py-3 pl-3 bg-dark  section-header">About and Background
+    <i class="ml-2 fa-solid fa-angle-down"></i>
+    </h3>
+  </button>
+<div class="collapse" id="collapseAboutFull">
+<!-- <h3 class="text-left text-white my-3 py-3 pl-3 bg-dark  section-header">About and Background</h3> -->
+
+<!-- <div class="row my-3 p-2 bg-success justify-content-center text-center">
+	<div class="col-12 col-md-5  col-lg-3 bg-primary p-3 mx-md-2">
+		<h2>Test</h2>
+	</div>
+	<div class="col-12 col-md-5 col-lg-3 bg-primary p-3 mx-md-2">
+		<h2>Test</h2>
+	</div>
+	<div class="d-none d-lg-inline col-lg-3 bg-primary p-3 mx-md-2">
+		<h2 class="text-center">Test</h2>
+	</div>
+ min-vh-60 min-vh-lg-30
+</div> -->
+
+<div class="row my-3 p-2 justify-content-center text-center"> <!-- Grid Section About -->
+	<div class="col-12 col-md-5 p-3 m-md-2  text-white infobody">
+		<h4 class="aboutheader mytooltip">Education
+    <!-- <img src="./c-logo.jpg" class="mytooltiptext img-fluid rounded-circle clogo" id="clogo"> -->
+    </h4>
+		<p>Tertiary: Technological Institute of the Philippines</p>
+		<p>Program: Bs Civil Engineering</p>
+		<p>Secondary: Saint Rita College - Manila</p>
+		<p>Award: First Honorable Mention</p>
+	</div>
+	<div class="col-12 col-md-5 p-3 m-md-2 text-white infobody">
+		<h4 class="aboutheader">Trainings</h4>
+		<p>Leadership training (2-Day) with JCW Inc as On-Site Supervisor</p>
+		<p>Leadership training (5-Day) with Ikitchen Holdings as Chef</p>
+		<p>Finance Training with Pru Like UK</p>
+	</div>
+	<div class="col-12 col-md-5  p-3 m-md-2 text-white infobody">
+		<h4 class="aboutheader">Industry</h4>
+		<p>Ikitchen Holdings: Assistant Head Chef (KuyaJ Restaurant)</p>
+		<p>Jobcon Works Inc: On-Site Supervisor/Cook (Chowking)</p>
+	</div>
+	<div class="col-12 col-md-5 p-3 m-md-2 text-white infobody ">
+		<h4 class="aboutheader">Journey as Developer</h4>
+		<p>Post-Graduate: Zuitt Learning Institute Inc</p>
+		<p>Program: Full Stack Web Development</p>
+		<p>Front-End: HTML5, Native CSS3, BOOTSTRAP 4</p>
+		<p>Back-End: MongoDB, NodeJs</p>
+	</div>
+</div><!-- End of Grid Section About -->
+
+<button type="button" class="gallerybtn btn btn-secondary" data-toggle="collapse" data-target="#carouselBox">View Gallery<i class="ml-2 fa-solid fa-angle-down"></i></button>
+<div id="carouselBox" class="collapse"> <!-- Main Carousel Container Collapse -->
+<div id="carouselExampleIndicators" class="carousel slide mx-auto p-4 my-3" data-ride="carousel">
+  <ol class="carousel-indicators p-4">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./images/college.jpg" class="d-block w-100 carousel-image img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/industry.jpg" class="d-block w-100 carousel-image img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/training1.jpg" class="d-block w-100 carousel-image img-fluid" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./images/training2.jpg" class="d-block w-100 carousel-image img-fluid" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><!-- End of Carousel -->
+</div><!-- End of Collapse Carousel -->
+</div>
+
+
+<h3 class="text-left text-white my-3 py-3 pl-3 bg-dark section-header" id="project">Projects and Webpages</h3>
+
+
+<div class="row mt-5 text-center mx-auto justify-content-center" ><!-- Row Projects Grid section -->
+
+
+  <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card" >
+      <div class="card-body" id="projback">
+        <div class="translucent">
+        <h5 class="card-title">Capstone - 1</h5>
+        <p class="card-text">Developer's Profile Homepage</p>
+        <img src="./images/capstone-img.jpg" class="projimg img-fluid" >
+      </div>
+        <a title="Go to Webpage" href="#" class="btn btnproj btn-secondary d-flex flex-column">Try Website</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card" >
+      <div class="card-body" id="projback2">
+        <div class="translucent">
+        <h5 class="card-title">Capstone - 2</h5>
+        <p class="card-text">Working with Servers and Back End</p>
+        <img src="https://cdn.dribbble.com/users/1697847/screenshots/13927232/media/13d456786d4774b2afff76e9aa6ec8a4.png?compress=1&resize=400x300" class="projimg img-fluid"  >
+      </div>
+        <a  title="Go to Webpage" href="#" class="btn btnproj  btn-secondary d-flex flex-column">Try Website</a>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card" >
+      <div class="card-body" id="projback3">
+        <div class="translucent">
+        <h5 class="card-title">Capstone - 3</h5>
+        <p class="card-text">Web Apps and Published Web Pages</p>
+        <img src="./images/projectpic2.jpg" class="projimg img-fluid"  >
+      </div>
+        <a title="Go to Webpage" href="#" class="btn btnproj  btn-secondary d-flex flex-column">Try Website</a>
+      </div>
+    </div>
+  </div>
+
+</div> <!-- row End of Projects Grid Section -->
+
+<!-- More Projects Section -->
+  <button class="gallerybtn btn btn-secondary" type="button" data-toggle="collapse" data-target="#collapseMoreProjects" aria-expanded="false" aria-controls="collapseMoreProjects">
+    See More Projects
+    <i class="ml-2 fa-solid fa-angle-down"></i>
+  </button>
+<div class="collapse" id="collapseMoreProjects">
+<div class="moreProjects">
+    
+
+<div class="row mt-5 text-center mx-auto justify-content-center" ><!-- Row More Projects Grid section -->
+
+
+  <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card  cardback" >
+      <div class="card-body" id="projback4">
+        <div class="translucent">
+        <h5 class="card-title">ECommerce</h5>
+        <p class="card-text">New Items! Shop Now!</p>
+        <img src="./images/carouselpic4.jpg" class="projimg img-fluid" >
+      </div>
+        <a title="Go to Webpage" href="#" class="btn btnproj btn-secondary d-flex flex-column">Try Website</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card cardback" >
+      <div class="card-body" id="projback5">
+        <div class="translucent">
+        <h5 class="card-title">Online Service Portals</h5>
+        <p class="card-text">Work with your Database</p>
+        <img src="./images/carouselpic3.jpg" class="projimg img-fluid"  >
+      </div>
+        <a  title="Go to Webpage" href="#" class="btn btnproj  btn-secondary d-flex flex-column">Try Website</a>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card  cardback" >
+      <div class="card-body" id="projback6">
+        <div class="translucent">
+        <h5 class="card-title">Platforms</h5>
+        <p class="card-text">Web Apps</p>
+        <img src="./images/carouselpic2.jpg" class="projimg img-fluid"  >
+      </div>
+        <a title="Go to Webpage" href="#" class="btn btnproj  btn-secondary d-flex flex-column">Try Website</a>
+      </div>
+    </div>
+  </div>
+
+</div> <!-- row End of More Projects Grid Section -->
+</div>
+</div><!-- End of more projects collapse -->
+
+
+
+<h3 class="text-left text-white my-3 py-3 pl-3 bg-dark section-header" id="tool">Tools and Apps</h3>
+
+<div class="container-fluid "> <!-- tools container -->
+
+  <div class="row mt-4"> <!-- collapse one -->
+
+    <div  class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+
+      <div class="accordion mx-auto" id="accordionExample">
+
+        <div class="card maincard">
+
+          <div class="card-header  toolheader" id="headingOne">
+            <h1 class="mb-0">
+            <button  id="toolbtn" class="toolbtn btn btn-link btn-block text-center text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Core Tools (Front End + JS)
+            </button>
+            </h1>
+          </div>
+
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body toolbody">
+              <div class="d-flex flex-row justify-content-center">
+                <img title="HTML5" src="./images/logo-html5.png" class="img-fluid icons" id="icons">
+                <img title="CSS3" src="./images/logo-css3.png" class="img-fluid icons" id="icons" >
+                <img title="JAVASCRIPT" src="./images/logo-javascript.png" class="img-fluid icons" id="icons">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+</div><!-- end row collapse one -->
+
+
+<div class="row"> <!-- collapse two -->
+  
+  <div  class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+
+  <div class="accordion mx-auto" id="accordionExample">
+  <div class="card  maincard">
+    <div class="card-header toolheader" id="headingTwo">
+      <h1 class="mb-0">
+        <button  id="toolbtn" class="toolbtn btn btn-link btn-block text-center text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+         MERN (Back End)
+        </button>
+      </h1>
+    </div>
+
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body toolbody">
+          <div class="d-flex flex-row flex-wrap justify-content-center">
+            <img title="MongoDB" src="./images/logo-mongodb.png" class="img-fluid icons" id="icons">
+            <img title="NodeJS" src="./images/logo-nodejs.png" class="img-fluid icons" id="icons" >
+            <img title="Express" src="./images/logo-expressjs.png" class="img-fluid icons" id="icons" >
+            <img title="React" src="./images/logo-react.png" class="img-fluid icons" id="icons" >
+          </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+</div><!-- end row collapse two -->
+
+<div class="row"> <!-- collapse three -->
+  
+  <div  class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+
+  <div class="accordion mx-auto" id="accordionExample">
+  <div class="card  maincard" >
+    <div class="card-header  toolheader" id="headingThree">
+      <h1 class="mb-0">
+        <button  id="toolbtn" class="toolbtn btn btn-link btn-block text-center text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+         Other Tools (Back End + Apps)
+        </button>
+      </h1>
+    </div>
+
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body toolbody" id="toolbody">
+          <div class="d-flex flex-row flex-wrap justify-content-center">
+            <img title="Heroku" src="./images/logo-heroku.png" class="img-fluid icons" id="icons" >
+            <img title="GitBash" src="./images/logo-git.png" class="img-fluid icons" id="icons" >
+            <img title="Sublime" src="./images/logo-sublime-text-3.png" class="img-fluid icons" id="icons" >
+            <img title="Postman" src="./images/logo-postman.png" class="img-fluid icons" id="icons" >
+            <img title="GitLab" src="./images/logo-gitlab-ci-cd.png" class="img-fluid icons" id="icons" >
+          </div>
+        </div>
+    </div>
+
+</div>
+</div>
+</div>
+</div><!-- end row collapse three -->
+
+</div> <!-- end of tools container -->
+
+<h3 class="text-left text-white my-3 py-3 pl-3 bg-dark section-header">Social Links and Contacts</h3>
+
+<div class="row my-5" > <!-- Row Contact Section -->
+    <div class="col-12 col-md-5 ml-auto contactSec" id="contactSec">
+      <h4 class="text-center">Visit Us</h4>
+      <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=notre%20dame%20cubao&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <!-- <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=Gangdong-gu,%20Seoul,%20South%20Korea&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
+    </div>
+    <div class="col-12 col-md-5 mr-auto contactSec">
+      <h4 class="text-center">Contact Us!</h4>
+        <form>
+        <div class="form-group text-left">
+          <label for="txt-username">Name:</label>
+          <input type="text" name="name" id="txt-username"  placeholder="Enter Full Name" class="form-control">
+          <label for="txt-email">Email:</label>
+          <input type="email" name="email" id="txt-email" class="form-control" placeholder="name@example">
+        </div>
+        <div class="form-group text-left">
+            <label for="txt-message">Message:</label>
+            <textarea  class="form-control"  id="txt-message" rows="3"></textarea>
+        </div>
+            <button type="submit"  class="btn btn-block btnsubmit mb-1 bg-secondary">Submit</button>
+        </form>
+    </div>
+</div><!-- End Row Contact Section -->
+
+<div class="container-fluid footerbody"> <!-- Footer section -->
+  <footer> <!-- links -->
+  <div class="row pt-3 text-center footerbg">
+
+
+      <div class="col-12 col-md-4">
+        <p><a href="#landing" class="text-white mx-2">About the Developer</a></p>
+        <h6>Projects</h6>
+        <a title="Go to Web Pages" href="#" class="text-white mx-2">Web Pages</a>
+        <a title="Go to Web Apps" href="#" class="text-white mx-2">Web Apps</a>
+      </div>
+      <div class="col-12 col-md-4 justify-content-center">
+        <h6>Social Links</h6>
+        <a title="Go to Facebook Page" href="https://facebook.com" target="_blank" class="text-white mx-2">
+          <i class="fa-brands fa-facebook fa-icons"></i>
+        </a>
+        <a title="Go to Instagram Page" href="https://instagram.com" target="_blank"class="text-white mx-2">
+          <i class="fa-brands fa-instagram-square fa-icons"></i>
+        </a>
+        <a title="Go to LinkedIn Page" href="https://linkedin.com" target="_blank" class="text-white mx-2">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a title="Go to Twitter Page" href="https://twitter.com" target="_blank"class="text-white mx-2">
+          <i class="fa-brands fa-twitter-square"></i>
+        </a>
+      </div>
+      <div class="col-12 col-md-4 justify-content-center">
+        <h6>Contact</h6>
+        <p title="Contact Number">(+63)9483944738 (TNT)</p>
+        <p title="Contact Email">charlesschua00@gmail.com</p>
+      </div>
+
+      <div class="col-12">
+        <p class="text-center ">
+         &copy;All Rights Reserved 2022
+        </p>
+      </div>
+  </div>
+</footer>
+</div> <!-- end of links -->
+
+</div><!--End 2nd col Container -->
+</div> <!-- End Main Container -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
