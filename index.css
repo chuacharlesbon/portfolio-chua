@@ -8,7 +8,7 @@
  }
 body {
 	/*background-color: #212529;*/
-	background-image: url(./pexels-sergej-eckhardt-2071319.jpg);
+	background-image: url(./images/pexels-sergej-eckhardt-2071319.jpg);
 	background-size: cover;
  	background-attachment: fixed;
 }
@@ -62,7 +62,7 @@ body {
 	border-radius: 0 0 1rem 0;
 }
 .topcover {
-	background-image: url(./wp6688406-typing-wallpapers.jpg);
+	background-image: url(./images/wp6688406-typing-wallpapers.jpg);
 	background-size: cover;
  	background-attachment: scroll;
 }
