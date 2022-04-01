@@ -20,7 +20,7 @@ body {
 	background-color: #424949 ;
 	transition: 0.5s;
 }
-.nav-item:hover, #Aboutbtn:hover, .gallerybtn, .btnproj{
+.nav-item:hover, #Aboutbtn:hover, .btnangle:hover, .gallerybtn, .btnproj{
 	background-color: #707B7C ;
 }
 .translucent {
@@ -66,7 +66,7 @@ body {
 	background-size: cover;
  	background-attachment: scroll;
 }
-#title,.carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon,.toolheader,.maincard {
+#title,.carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon,.toolheader,.maincard, .section-header {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 #collapseAbout {
@@ -243,6 +243,10 @@ body {
 }
 #firstCol {
 	display:  none;
+}
+.translucent{
+	background-color: rgba(0, 0, 0, 0.6) !important ;
+	color: white  !important;
 }
 }
 /*@media screen and (max-width: 1024px) Mobile (+/-) 6inch Setting section
