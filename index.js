@@ -4,8 +4,7 @@ function lightmode() {
 
 	document.getElementById("navbar").style.backgroundColor = "white";
 	document.getElementById("firstCol").style.backgroundColor = "white";
-	document.getElementById("firstCol").style.borderRadius = "0";
-	document.getElementById("secondCol").style.backgroundColor = "white";
+	document.getElementById("big-box").style.backgroundColor = "white";
 	document.getElementById("aboutbody").style.backgroundColor = "white";
 	document.getElementById("aboutcontent").style.color = "black"
 	document.getElementById("headAbout").style.backgroundColor = "white";
@@ -20,6 +19,8 @@ function lightmode() {
 	document.getElementById("maincardOne").style.backgroundColor = "white"
 	document.getElementById("maincardTwo").style.backgroundColor = "white"
 	document.getElementById("maincardThree").style.backgroundColor = "white"
+	document.getElementById("subhead").style.color = "black";
+	document.getElementById("subhead2").style.color = "black";
 	//element.style.backgroundImage = null
 	//element.style.backgroundColor = "white"
 	/*document.getElementById("headAbout").style.borderBottomWidth = "2rem"
@@ -34,7 +35,7 @@ function lightmode() {
 function darkmode() {
 	document.getElementById("navbar").style.backgroundColor = "black";
 	document.getElementById("firstCol").style.backgroundColor = "black";
-	document.getElementById("secondCol").style.backgroundColor = null;
+	document.getElementById("big-box").style.backgroundColor = null;
 	document.getElementById("aboutbody").style.backgroundColor = "#424949";
 	document.getElementById("aboutcontent").style.color = "white"
 	document.getElementById("headAbout").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
@@ -49,6 +50,7 @@ function darkmode() {
 	document.getElementById("maincardOne").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
 	document.getElementById("maincardTwo").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
 	document.getElementById("maincardThree").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
-
+	document.getElementById("subhead").style.color = "white";
+	document.getElementById("subhead2").style.color = "white";
 
 }

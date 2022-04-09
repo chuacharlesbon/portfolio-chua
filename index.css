@@ -235,11 +235,7 @@ body {
 
 @media screen and (max-width: 768px) /*Mobile (+/-) 6inch Setting section*/
 {
-.secondCol {
-    display: block !important;
-    width: 100vw !important;
-    margin: auto !important;
-	}
+
 /*#carouselExampleIndicators {
 	width:  80vw !important;
 }*/
@@ -298,6 +294,14 @@ body {
 }
 }
 
+@media screen and (max-width: 991px) /*Mobile (+/-) 6inch Setting section*/
+{
+	.secondCol {
+    display: block !important;
+    width: 100vw !important;
+    margin: auto !important;
+	}
+}
 
 
 
