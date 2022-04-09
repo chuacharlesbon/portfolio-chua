@@ -209,6 +209,10 @@ body {
 	width:  12rem;
 	height: 9rem;
 }
+#play {
+	width:  8rem;
+	height: 3rem;
+}
 
 #newhead {
 	font-family: "Comic Sans MS", "Comic Sans", cursive !important;
@@ -220,6 +224,8 @@ body {
   animation-duration: 1s;
   animation-iteration-count: infinite;
 }
+
+
 @keyframes example {
   
   100% {background-color:orange;}

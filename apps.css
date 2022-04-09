@@ -1,0 +1,35 @@
+* {
+	font-family:  'Hubballi', cursive;
+	font-size: 20px;
+	box-sizing: border-box;
+}
+ html {
+ 	scroll-behavior: smooth;
+ }
+body {
+	background-color: lightblue;
+	cursor: wait;
+}
+#loading {
+	width: 20rem;
+	height: 15rem;
+	margin-top: 30vh;
+	border-radius: 2rem;
+
+}
+#newhead {
+	font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+	width: 40%;
+  height: 2.5rem;
+  background-color: lightskyblue;
+  border-radius: 0.4rem;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example {
+  
+  100% {background-color:lightblue;}
+}
