@@ -68,7 +68,7 @@ body {
 	background-size: cover;
  	background-attachment: scroll;
 }
-#title,.carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon,.toolheader,.maincard, .section-header {
+#title,.carousel-indicators, .carousel-control-next-icon, .carousel-control-prev-icon,.toolheader, .section-header {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 #collapseAbout {
@@ -178,7 +178,7 @@ body {
 }
 .contactSec:hover {
 	background-color: #707B7C;
-	padding: 0.2rem;
+	padding: 0.5rem;
 	transition: 0.1s;
 	color: black;
 }
@@ -201,6 +201,9 @@ body {
 	color:  white;
 	}
 
+#maincardOne, #maincardTwo, #maincardThree {
+	background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 

@@ -17,6 +17,9 @@ function lightmode() {
 	document.getElementById("headContact").style.backgroundColor = "white";
 	document.getElementById("headContact").style.color = "black";
 	document.getElementById("menuIcon").style.backgroundColor = "gray";
+	document.getElementById("maincardOne").style.backgroundColor = "white"
+	document.getElementById("maincardTwo").style.backgroundColor = "white"
+	document.getElementById("maincardThree").style.backgroundColor = "white"
 	//element.style.backgroundImage = null
 	//element.style.backgroundColor = "white"
 	/*document.getElementById("headAbout").style.borderBottomWidth = "2rem"
@@ -43,7 +46,9 @@ function darkmode() {
 	document.getElementById("headContact").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
 	document.getElementById("headContact").style.color = "white";
 	document.getElementById("menuIcon").style.backgroundColor = "black";
-
+	document.getElementById("maincardOne").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+	document.getElementById("maincardTwo").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
+	document.getElementById("maincardThree").style.backgroundColor = "rgba(0, 0, 0, 0.5)";
 
 
 }
