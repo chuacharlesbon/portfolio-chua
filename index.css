@@ -149,7 +149,7 @@ body {
  	/*height: 25rem;*/
  	transition: 0.5s;
 }
-#projback4, #projback5, #projback6,.cardback, #aboutinfo {
+#projback4, #projback5, #projback6,.cardback, #aboutinfo, #projback7 {
 	transition: 0.5s;
 	background-color: rgba(0, 0, 0, 0.3);
 	color: white;
@@ -205,8 +205,25 @@ body {
 	background-color: rgba(0, 0, 0, 0.5);
 }
 
+.projimg7 {
+	width:  12rem;
+	height: 9rem;
+}
 
-
+#newhead {
+	font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+	width: 30%;
+  height: 2.5rem;
+  background-color: red;
+  border-radius: 0.4rem;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  
+  100% {background-color:orange;}
+}
 
 
 
