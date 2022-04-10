@@ -1,3 +1,29 @@
+setInterval(myFunction, 1000);
+
+function myFunction() {
+  let d = new Date();
+  document.getElementById("time").innerHTML=
+  "Time: " +
+  d.getHours() + ":" +
+  d.getMinutes() + ":" +
+  d.getSeconds();
+}
+
+const time = new Date().getHours();
+let greeting;
+if (time < 10) {
+  greeting = "Good morning ${public-user}!";
+} else if (time < 18) {
+  greeting = "Good day  ${public-user}!";
+} else {
+  greeting = "Good evening  ${public-user}!";
+}
+document.getElementById("greet").innerHTML = greeting;
+
+
+
+
+
 let modal = document.getElementById("myModal");
 let btn = document.getElementById("myBtn");
 let span = document.getElementsByClassName("close")[0];

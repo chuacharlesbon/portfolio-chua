@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<nav id="navbar"  class="navbar navbar-expand-sm sticky-top border-bottom border-dark">
+<nav id="navbar"  class="navbar navbar-expand-sm sticky-top border-bottom border-dark bg-info">
   <a class="navbar-brand" href="./index.html"><img src="./images/c-logo.jpg" class="img-fluid rounded-circle clogo" id="clogo"></a>
   <button id="menuIcon"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu">
     <span class="navbar-toggler-ico"><i class="fa-solid fa-bars text-white"></i></span>
@@ -20,8 +20,8 @@
 
   <div class="collapse navbar-collapse" id="navbarmenu">
     <ul class="ml-4 navbar-nav mr-auto"> 
-      <li class="nav-item">
-        <a class="btn btnnav nav-link mx-2 p-1" href="./index.html">Back to Home <span class="sr-only">(current)</span></a>
+      <li class="rounded nav-item">
+        <a class=" btn btnnav nav-link mx-2 p-1" href="./index.html">Back to Home <span class="sr-only">(current)</span></a>
       </li>
     </ul>   
   </div>
@@ -29,6 +29,32 @@
 
 
 <div id="main-container" class="main-container"><!-- Main Container -->
+
+<div class="row justify-content-center  align-items-center  text-center bg-warning "> 
+
+<div class="col-12 col-md-7 col-lg-8 text-center  mx-auto p-3">
+  
+<h1 class="text-danger">WELCOME!</h1>
+<p class="text-danger">Accessories, Apps and Mini-Games!</p>
+
+</div>
+<div class="col-12 col-md-3 col-lg-2 ">
+
+<h5 id="greet" class="text-center rounded ml-auto justify-content-center p-2 m-2 bg-primary row"></h5>
+<h4 id="time" class="rounded ml-auto justify-content-center p-2 m-2 bg-primary row "></h4>
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
 
 <div class="row mt-5 text-center mx-auto justify-content-center" ><!-- Row Apps -->
 
@@ -74,6 +100,49 @@
 
 </div> <!-- row end of Apps -->
 
+<div class="row mt-5 text-center mx-auto justify-content-center" ><!-- Row Apps -->
+
+
+  <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card  cardback" >
+      <div class="card-body" id="projback7">
+        <div class="translucent">
+        <h5 class="card-title">Treasure Hunt!</h5>
+        <p class="card-text">Help ${character} find the treasure!</p>
+        <img src="./images/UbYs.gif" class="projimg img-fluid" >
+      </div>
+        <button id="myBtn" class="btn btnproj btn-primary d-flex flex-column mx-auto">Let's Play</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card cardback" >
+      <div class="card-body" id="projback8">
+        <div class="translucent">
+        <h5 class="card-title">Build!</h5>
+        <p class="card-text">Aim for the highest tower</p>
+        <img src="./images/UbYs.gif" class="projimg img-fluid"  >
+      </div>
+        <button id="myBtn2" class="btn btnproj btn-primary d-flex flex-column mx-auto">Let's Play</button>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card  cardback" >
+      <div class="card-body" id="projback9">
+        <div class="translucent">
+        <h5 class="card-title">Brain Trickster-1</h5>
+        <p class="card-text">Measure your IQ with problems</p>
+        <img src="./images/UbYs.gif" class="projimg img-fluid"  >
+      </div>
+        <button id="myBtn3" class="btn btnproj btn-primary d-flex flex-column mx-auto">Let's Play</button>
+      </div>
+    </div>
+  </div>
+
+</div> <!-- row end of Apps -->
 
 
 
@@ -136,7 +205,46 @@
 
 	
 </div><!-- End of main Container -->
+<div class="container-fluid footerbody bg-info mt-5"> <!-- Footer section -->
+  <footer> <!-- links -->
+  <div class="row pt-3 text-center footerbg">
 
+
+      <div class="col-12 col-md-4">
+        <p><a href="#landing" class="text-white mx-2">About the Developer</a></p>
+        <h6>Projects</h6>
+        <a title="Go to Web Pages" href="#" class="text-white mx-2">Web Pages</a>
+        <a title="Go to Web Apps" href="#" class="text-white mx-2">Web Apps</a>
+      </div>
+      <div class="col-12 col-md-4 justify-content-center">
+        <h6>Social Links</h6>
+        <a title="Go to Facebook Page" href="https://facebook.com" target="_blank" class="text-white mx-2">
+          <i class="fa-brands fa-facebook fa-icons"></i>
+        </a>
+        <a title="Go to Instagram Page" href="https://instagram.com" target="_blank"class="text-white mx-2">
+          <i class="fa-brands fa-instagram-square fa-icons"></i>
+        </a>
+        <a title="Go to LinkedIn Page" href="https://linkedin.com" target="_blank" class="text-white mx-2">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a title="Go to Twitter Page" href="https://twitter.com" target="_blank"class="text-white mx-2">
+          <i class="fa-brands fa-twitter-square"></i>
+        </a>
+      </div>
+      <div class="col-12 col-md-4 justify-content-center">
+        <h6>Contact</h6>
+        <p title="Contact Number">(+63)9483944738 (TNT)</p>
+        <p title="Contact Email">charleschua00@gmail.com</p>
+      </div>
+
+      <div class="col-12">
+        <p class="text-center ">
+         &copy;All Rights Reserved 2022
+        </p>
+      </div>
+  </div>
+</footer>
+</div> <!-- end of links -->
 
 <script type="text/javascript" src="./appshome.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

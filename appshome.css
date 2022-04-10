@@ -75,6 +75,3 @@ body {
 .navbar-nav ~ li:hover{
 	color: black !important;
 }
-.navbar {
-	background-color: black;
-}
