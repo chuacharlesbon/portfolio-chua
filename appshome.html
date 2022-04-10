@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+	<title>Apps|Home</title>
+	<link rel="icon" href="./images/c-logo.jpg" type="image/jpg">
+	<link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+  	<script src="https://kit.fontawesome.com/37695b8f36.js" crossorigin="anonymous"></script>
+  	<link rel="stylesheet" type="text/css" href="./appshome.css">
+</head>
+<body>
+
+<nav id="navbar"  class="navbar navbar-expand-sm sticky-top border-bottom border-dark">
+  <a class="navbar-brand" href="./index.html"><img src="./images/c-logo.jpg" class="img-fluid rounded-circle clogo" id="clogo"></a>
+  <button id="menuIcon"  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarmenu">
+    <span class="navbar-toggler-ico"><i class="fa-solid fa-bars text-white"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarmenu">
+    <ul class="ml-4 navbar-nav mr-auto"> 
+      <li class="nav-item">
+        <a class="btn btnnav nav-link mx-2 p-1" href="./index.html">Back to Home <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>   
+  </div>
+</nav>
+
+
+<div id="main-container" class="main-container"><!-- Main Container -->
+
+<div class="row mt-5 text-center mx-auto justify-content-center" ><!-- Row Apps -->
+
+
+  <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card  cardback" >
+      <div class="card-body" id="projback4">
+        <div class="translucent">
+        <h5 class="card-title">Converter App</h5>
+        <p class="card-text">Metric System ~ English System</p>
+        <img src="./images/ruler.jpg" class="projimg img-fluid" >
+      </div>
+        <button id="myBtn" class="btn btnproj btn-primary d-flex flex-column mx-auto">Try App</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card cardback" >
+      <div class="card-body" id="projback5">
+        <div class="translucent">
+        <h5 class="card-title">Temperature</h5>
+        <p class="card-text">Fahrenheit ~ Celsius</p>
+        <img src="./images/thermo.jpg" class="projimg img-fluid"  >
+      </div>
+        <button id="myBtn2" class="btn btnproj btn-primary d-flex flex-column mx-auto">Try App</button>
+      </div>
+    </div>
+  </div>
+
+   <div class="col-12 col-sm-6 col-lg-4 my-2">
+    <div class="card  cardback" >
+      <div class="card-body" id="projback6">
+        <div class="translucent">
+        <h5 class="card-title">Currency Converter</h5>
+        <p class="card-text">USD, PHP, AUD, CAD and More</p>
+        <img src="./images/pngwing.com.png" class="projimg img-fluid"  >
+      </div>
+        <button id="myBtn3" class="btn btnproj btn-primary d-flex flex-column mx-auto">Try App</button>
+      </div>
+    </div>
+  </div>
+
+</div> <!-- row end of Apps -->
+
+
+
+
+<div id="myModal" class="modal"><!-- Modal for Converter -->
+
+  <!-- Modal content -->
+  <div class="modal-content">
+  <span class="close ml-auto">&times;</span>
+<form class="mx-auto text-center">
+  <h4>Input number here:</h4>
+  <fieldset>
+  <h5>Metric System:</h5>
+  <span id="use-met" class="btn btn-info my-2">Use Metric</span>
+  <input type="text" id="input-metric">
+  <select id="units" name="units">
+  <option value="mm">m to mm</option>
+  <option value="cm">m to cm (N/A)</option>
+  <option value="dm">m to dm (N/A)</option>
+  <option value="none">(none)</option>
+  </select>
+  <select id="units2" name="units2">
+  <option value="ft">m to ft</option>
+  <option value="in">m to in (N/A)</option>
+  <option value="yd">m to yd (N/A)</option>
+  <option value="none">(none)</option>
+  </select>
+  <br/>
+  <h5 class="mt-4">English System:</h5>
+  <span id="use-eng"  class="btn btn-info my-2">Use English</span>
+  <input type="text" id="input-english">
+  <select id="units" name="units">
+  <option value="ft">ft to m</option>
+  <option value="cm">in to m (N/A)</option>
+  <option value="yd">yd to m (N/A)</option>
+  <option value="none">(none)</option>
+  </select>
+  <select id="units2" name="units2">
+  <option value="ft">ft to yd</option>
+  <option value="ft">ft to in (N/A)</option>
+  <option value="cm">in to ft (N/A)</option>
+  <option value="cm">in to yd (N/A)</option>
+  <option value="yd">yd to ft (N/A)</option>
+  <option value="yd">yd to in (N/A)</option>
+  <option value="none">(none)</option>
+  </select>
+  <br/>
+</fieldset>
+  <h4 class="text-center p-4">Results</h4>
+  <h4>To English System:</h4>
+  <div id="output-english" class="border border-dark p-2"></div>
+  <h4>To Metric System:</h4>
+  <div id="output-metric" class="border border-dark p-2"></div><br/>
+  <input type="reset" value="Reset" id="reset" class="btn btn-primary mt-4 ">
+</form>  
+
+  </div>
+
+</div><!-- Modal for Converter -->
+
+
+	
+</div><!-- End of main Container -->
+
+
+<script type="text/javascript" src="./appshome.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -25,11 +25,6 @@ function lightmode() {
 	//element.style.backgroundColor = "white"
 	/*document.getElementById("headAbout").style.borderBottomWidth = "2rem"
 	document.getElementById("headAbout").style.borderBottomColor = "black"*/
-
-
-
-
-
 }
 
 function darkmode() {
@@ -54,3 +49,12 @@ function darkmode() {
 	document.getElementById("subhead2").style.color = "white";
 
 }
+
+const myTimeout = setTimeout(redirect, 11000);
+
+function redirect() {
+  document.getElementById("myModal").style.display = "block"
+}
+
+
+
