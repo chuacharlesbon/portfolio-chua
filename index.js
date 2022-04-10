@@ -50,11 +50,22 @@ function darkmode() {
 
 }
 
-const myTimeout = setTimeout(redirect, 11000);
 
-function redirect() {
-  document.getElementById("myModal").style.display = "block"
+const btn = document.getElementById("btn-postman")
+
+const modal = document.getElementById("myModal2")
+
+const modalbtn = document.getElementById("modal2")
+
+btn.onclick = function() {
+	document.getElementById("myModal2").style.display = "block"
+}
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
 
-
-
+modalbtn.onclick = function()  {
+	document.getElementById("myModal2").style.display = "none"
+}
