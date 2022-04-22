@@ -69,3 +69,6 @@ window.onclick = function(event) {
 modalbtn.onclick = function()  {
 	document.getElementById("myModal2").style.display = "none"
 }
+
+/*const d = new Date()
+alert(d)*/

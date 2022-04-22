@@ -11,6 +11,8 @@ body {
 	background-image: url(./images/pexels-sergej-eckhardt-2071319.jpg);
 	background-size: cover;
  	background-attachment: fixed;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
 }
 .clogo {
 	height:  2rem;
@@ -44,7 +46,7 @@ body {
 .secondCol {
 	width: 93%;
  	margin-left: 5%;
- 	padding-left: 0;
+ 	/*padding-left: 0;*/
 }
 .aboutheader {
 	background-color: #616A6B;
@@ -214,7 +216,7 @@ body {
 	height: 3rem;
 }
 
-#newhead {
+#newhead, #react-btn {
 	width: 30%;
   height: 2.5rem;
   background-color: red;
@@ -253,6 +255,9 @@ body {
   width: 80%;
 }
 
+.rowgroup {
+	width:  99%;
+}
 
 
 
