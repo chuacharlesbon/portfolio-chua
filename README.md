@@ -1,5 +1,7 @@
 # Developer's Profile
 
+Started: March 16, 2022, Deployed: March 18,2022, Updated: April 20,2022
+
 # About Me Section :
 Professional Photo, Introduction, Educational Background, Trainings and Seminars, Work Experience
 
