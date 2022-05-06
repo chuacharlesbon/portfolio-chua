@@ -12,11 +12,11 @@ function myFunction() {
 const time = new Date().getHours();
 let greeting;
 if (time < 10) {
-  greeting = "Good morning ${public-user}!";
+  greeting = "Good morning!";
 } else if (time < 18) {
-  greeting = "Good day  ${public-user}!";
+  greeting = "Good day!";
 } else {
-  greeting = "Good evening  ${public-user}!";
+  greeting = "Good evening!";
 }
 document.getElementById("greet").innerHTML = greeting;
 
