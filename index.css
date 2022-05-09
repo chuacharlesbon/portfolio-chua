@@ -235,6 +235,9 @@ body {
 #myModal {
 	display: none;
 }
+#myModal1 {
+	display: block;
+}
 .modal {
   position: fixed; 
   z-index: 1; 

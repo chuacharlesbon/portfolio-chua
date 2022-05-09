@@ -57,6 +57,10 @@ const modal = document.getElementById("myModal2")
 
 const modalbtn = document.getElementById("modal2")
 
+const modal1 = document.getElementById("myModal1")
+
+const modalbtn1 = document.getElementById("modal1")
+
 btn.onclick = function() {
 	document.getElementById("myModal2").style.display = "block"
 }
@@ -68,6 +72,18 @@ window.onclick = function(event) {
 
 modalbtn.onclick = function()  {
 	document.getElementById("myModal2").style.display = "none"
+}
+
+
+
+window.onclick = function(event) {
+  if (event.target == modal1) {
+    modal1.style.display = "none";
+  }
+}
+
+modalbtn1.onclick = function()  {
+	document.getElementById("myModal1").style.display = "none"
 }
 
 /*const d = new Date()
