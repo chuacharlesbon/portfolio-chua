@@ -1,4 +1,7 @@
 //alert("hi")
+
+
+
 function lightmode() {
 	let element = document.body
 
@@ -88,3 +91,32 @@ modalbtn1.onclick = function()  {
 
 /*const d = new Date()
 alert(d)*/
+
+
+document.querySelector("#form-message-post").addEventListener("submit", (event) => {
+	event.preventDefault()
+
+	fetch('https://immense-lake-17505.herokuapp.com/messages', {
+
+		method: 'POST',
+		headers: {'Content-Type' : 'application/json'},
+		body: JSON.stringify({
+			sender: document.querySelector("#txt-email").value + " " + document.querySelector("#txt-username").value,
+			receiver: "Admin",
+			content : document.querySelector("#txt-message").value
+		})
+		
+
+	})
+	.then((response) => response.json())
+	
+	.then((data) => {
+		console.log(data)
+		alert("Message successfully sent")
+		
+		document.querySelector("#txt-username").value = null;
+		document.querySelector("#txt-email").value = null;
+		document.querySelector("#txt-message").value = null;
+	})
+
+})

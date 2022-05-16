@@ -13,3 +13,7 @@ IDE, Online Repositories, API, Web Based Languages
 
 # Contact Section
 Home Address via Google Map, Social Links, Email Address
+
+## Updates
+
+- May 16, 2022 - Messaging system

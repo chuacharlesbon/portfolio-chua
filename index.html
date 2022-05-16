@@ -436,16 +436,16 @@
     </div>
     <div class="col-12 col-md-5 mr-auto contactSec">
       <h4 class="text-center" id="subhead2">Contact Us!</h4>
-        <form>
+        <form id="form-message-post">
         <div class="form-group text-left">
           <label for="txt-username">Name:</label>
-          <input type="text" name="name" id="txt-username"  placeholder="Enter Full Name" class="form-control">
+          <input type="text" name="name" id="txt-username"  placeholder="Enter Full Name" class="form-control" required="required">
           <label for="txt-email">Email:</label>
-          <input type="email" name="email" id="txt-email" class="form-control" placeholder="name@example">
+          <input type="email" name="email" id="txt-email" class="form-control" placeholder="name@example" required="required">
         </div>
         <div class="form-group text-left">
             <label for="txt-message">Message:</label>
-            <textarea  class="form-control"  id="txt-message" rows="3"></textarea>
+            <textarea  class="form-control"  id="txt-message" rows="3" required="required"></textarea>
         </div>
             <button type="submit"  class="btn btn-block btnsubmit mb-1 bg-secondary">Submit</button>
         </form>
@@ -488,7 +488,7 @@
         <p class="text-center ">
          &copy;All Rights Reserved 2022
         </p>
-        <p>Updated On: Thu Apr 21 2022 11:55:34 GMT+0800 (Singapore Standard Time)</p>
+        <p>Updated On: Mon May 16 2022 11:55:34 GMT+0800 (Singapore Standard Time)</p>
       </div>
   </div>
 </footer>
@@ -510,7 +510,7 @@
 
 <div id="myModal1" class=" modal row justify-content-center text-center align-items-center mx-auto">
 
-  <!-- Modal content -->
+  
   <div class=" modal-content p-2 col-12 col-md-6 col-lg-4 text-center mx-auto justify-content-center align-items-center">
     <h3 class="text-center">Hi there! Thank you for visiting my profile.</h3>
     <h5 class="text-center">You may also see Developer's Profile via React. Click
